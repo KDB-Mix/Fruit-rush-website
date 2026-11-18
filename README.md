@@ -6,6 +6,8 @@ ___
 Fruit rush is an open source simple game made in **Pygame**.
 
 That was my first Pygame game I've ever made.
+
+The game: You are a basket, you have to catck every fruit you can, but if you missed 3 you fall, click to change direction.
 ___
 
 If you want to run it locally or edit it, you can install it as a zip file, and run `index.html` to see the main page
