@@ -20,7 +20,7 @@ const spawner = setInterval(() => {
             y += speed
             rotation += rotationSpeed
             item.style.transform = `translateY(${y}px) rotate(${rotation}deg)`
-            if (y >= window.innerHeight + 100){
+            if (y >= window.innerHeight + 300){
                 container.removeChild(item)
                 clearInterval(animation)
                 }
