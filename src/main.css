@@ -69,6 +69,9 @@ body{
     grid-template-areas: "text img"
                          "button img";
     margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(52, 153, 41);
 }
 #desc a{
     grid-area: button;
@@ -83,17 +86,40 @@ body{
     height: fit-content;
     margin: auto;
 }
+#desc a:hover{
+    transform: translateY(-10px) rotate(3deg) scale(1.1);
+}
 #desc p{
     grid-area: text;
 }
 #desc img{
     grid-area: img;
     width: 100%;
-    border: 5px dotted grey;
+    border: 5px dotted aliceblue;
     border-radius: 20px;
 }
 @media (max-width: 700px) {
     .fruit{
     width: 150px;
+    }
+}
+@media (max-width: 900px) {
+    #desc{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 1fr .3fr;
+        width: 85%;
+        grid-template-areas: "img"
+                            "text" 
+                            "button";
+    }
+    #desc img{
+        height: 100%;
+        width: auto;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 500px) {
+    #desc{
+        font-size: 1.2rem;
     }
 }
