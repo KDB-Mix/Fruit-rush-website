@@ -43,3 +43,26 @@ body{
 #download_link:hover{
     transform: translateY(-10px) rotate(3deg) scale(1.1);
 }
+.fruit{
+    position: fixed;
+    z-index: -50;
+    width: 250px;
+    overflow: hidden;
+    pointer-events: none;
+    margin: 0;
+}
+#fruits{
+    margin: 0;
+    z-index: -50;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+@media (max-width: 700px) {
+    .fruit{
+    width: 150px;
+    }
+}

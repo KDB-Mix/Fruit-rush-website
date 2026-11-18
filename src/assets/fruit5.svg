@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg version="1.1" width="160" height="160" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<rect x="80" y="50" width="10" height="20" fill="#452722" />
+<rect x="90" y="60" width="10" height="30" fill="#452722" />
+<rect x="70" y="70" width="10" height="20" fill="#452722" />
+<rect x="50" y="80" width="20" height="20" fill="#DC1010" />
+<rect x="90" y="90" width="20" height="20" fill="#DC1010" />
+</svg>
