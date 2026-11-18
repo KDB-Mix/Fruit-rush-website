@@ -4,7 +4,7 @@ const container = document.querySelector("#fruits")
 
 const spawner = setInterval(() => {
     if (document.hasFocus()){
-        const item = document.createElement('img')
+        const item = document.createElement('img');
         const speed = +5
         const rotationSpeed = rand(-3, 3)
         let y = -230
