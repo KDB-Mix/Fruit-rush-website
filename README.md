@@ -1,5 +1,7 @@
 # Fruit rush
 (this is a website for my game fruit rush, here is the [repo](https://github.com/KDB-Mix/fruit-rush))
+
+Website: https://kdb-mix.github.io/Fruit-rush-website
 ___
 Fruit rush is an open source simple game made in **Pygame**.
 
