@@ -39,6 +39,7 @@ body{
     background-color: aqua;
     transition: transform .3s ease-in-out;
     display: inline-block;
+    margin: 3px;
 }
 #download_link:hover{
     transform: translateY(-10px) rotate(3deg) scale(1.1);
