@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "512x8Serif";
+    src: url(Fonts/512x8Serif.ttf);
+}
+body{
+    font-family: "512x8Serif", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-shadow: 0 0 10px black;
+}
+#bg-image{
+    background-image: url("assets/screenshot1.png");
+    background-color: aqua;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+#hero{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#download_link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    transition: transform .3s ease-in-out;
+    display: inline-block;
+}
+#download_link:hover{
+    transform: translateY(-10px) rotate(3deg) scale(1.1);
+}
